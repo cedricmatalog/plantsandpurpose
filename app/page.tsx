@@ -7,23 +7,21 @@ export default function IndexPage() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Beautifully designed components <br className="hidden sm:inline" />
-          built with Radix UI and Tailwind CSS.
+        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl md:py-4">
+          Hola! I'm Roni, a dedicated Registered Nutrition Dietitian with a passion for empowering vegans and vegetarians on their path to vibrant health.
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Accessible and customizable components that you can copy and paste
-          into your apps. Free. Open Source. And Next.js 13 Ready.
+          My mission is to provide you with expert guidance, personalized nutrition plans, and a wealth of knowledge to help you not just thrive but excel in your plant-based lifestyle. Together, we'll explore the delicious world of plant-based nutrition, discover the benefits of mindful eating, and tailor a plan that's as unique as you are. Whether you're looking to boost energy, manage weight, or simply embrace a more nourishing way of life, I'm here to support you every step of the way. Let's embark on this journey to optimal health together!
         </p>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 md:py-4">
         <Link
           href={siteConfig.links.docs}
           target="_blank"
           rel="noreferrer"
           className={buttonVariants()}
         >
-          Documentation
+          Schedule a Consultation
         </Link>
         <Link
           target="_blank"
@@ -31,7 +29,7 @@ export default function IndexPage() {
           href={siteConfig.links.github}
           className={buttonVariants({ variant: "outline" })}
         >
-          GitHub
+          Subscribe to Our Newsletter
         </Link>
       </div>
     </section>
